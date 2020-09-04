@@ -1,0 +1,21 @@
+.active {
+    visibility: visible;
+    animation:  showNavBar 0.3s 1;
+}
+
+.hidden {
+    animation: hideNavBar 0.3s 1;
+    visibility: hidden;
+}
+
+@keyframes showNavBar {
+    0%   {top: -50px;}
+    50%  {top: -25px;}
+    100% {top: 0px;}
+}
+
+@keyframes hideNavBar {
+    0%   {top: 0px;}
+    50%  {top: -25px;}
+    100% {top: -50px;}
+}
