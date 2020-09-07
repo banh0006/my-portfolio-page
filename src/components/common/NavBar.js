@@ -10,9 +10,6 @@ import {
 export default function NavBar ( props ) {
     const [show, setShow] = useState({ ...props.showNav })
     const styles = {
-        navLink: {
-            'backgroundColor': 'red'
-        },
         navBrand: {
             'listStyle': 'none'
         },
@@ -25,10 +22,10 @@ export default function NavBar ( props ) {
 
     return (
         <React.Fragment>
-            <Navbar color="light" fixed="top" className={show === true ? 'active' : 'hidden'}>
+            <Navbar color="light" fixed="top" className={ show === true ? 'active' : 'hidden' }>
                 <NavItem style={styles.navBrand}>Thien Banh</NavItem>
                 <Nav className="ml-auto">
-                    <NavItem style={styles.navLink}>
+                    <NavItem>
                         <NavLink href="/">Profile</NavLink>
                     </NavItem>
                     <NavItem>

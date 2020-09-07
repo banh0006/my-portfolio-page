@@ -1,3 +1,14 @@
+.navbar {
+    width: 100vw;
+    height: 10vh;
+}
+
+a.nav-link, li.nav-item {
+    color: #fc7233;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .active {
     visibility: visible;
     animation:  showNavBar 0.3s 1;

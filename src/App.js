@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "./components/common/NavBar";
+import ParallaxImage from './components/ParallaxImage'
 import MessengerCustomerChat from "react-messenger-customer-chat";
 
 function App() {
+  
+
   const [scrolledPosition, setSrolledPosition] = useState(0);
   const [showNav, setShowNav] = useState(true);
 
@@ -28,6 +31,7 @@ function App() {
   return (
     <>
       <NavBar showNav={showNav} />
+      <ParallaxImage />
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet
@@ -215,7 +219,7 @@ function App() {
         arcu dictum varius duis at. Eget duis at tellus at urna condimentum
         mattis.
       </div>
-      <MessengerCustomerChat pageId="116543563511206" appId="667569657298462" minimized={false} shouldShowDialog={true}/>
+      {/* <MessengerCustomerChat pageId="116543563511206" appId="667569657298462" minimized={false} shouldShowDialog={true}/> */}
     </>
 
     // <div>This is my website</div>
