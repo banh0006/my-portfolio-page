@@ -219,10 +219,8 @@ function App() {
         arcu dictum varius duis at. Eget duis at tellus at urna condimentum
         mattis.
       </div>
-      {/* <MessengerCustomerChat pageId="116543563511206" appId="667569657298462" minimized={false} shouldShowDialog={true}/> */}
+      <MessengerCustomerChat pageId="116543563511206" appId="667569657298462" minimized={false} shouldShowDialog={true}/>
     </>
-
-    // <div>This is my website</div>
   );
 }
 
