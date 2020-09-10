@@ -6,6 +6,7 @@ import {
     NavItem,
     NavLink,
 } from 'reactstrap';
+import { ScrollspyNavLink } from 'reactstrap-scrollspy'
 
 export default function NavBar ( props ) {
     const [show, setShow] = useState({ ...props.showNav })
@@ -16,26 +17,33 @@ export default function NavBar ( props ) {
     }
 
     useEffect(() => {
-        console.log(props.showNav)
         setShow(props.showNav)
     }, [props.showNav])
 
     return (
         <React.Fragment>
-            <Navbar color="light" fixed="top" className={ show === true ? 'active' : 'hidden' }>
+            <Navbar fixed="top" className={ show === true ? 'active' : 'hidden' }>
                 <NavItem style={styles.navBrand}>Thien Banh</NavItem>
                 <Nav className="ml-auto">
                     <NavItem>
-                        <NavLink href="/">Profile</NavLink>
+                        <ScrollspyNavLink name="home">
+                            <NavLink href="#home">Home</NavLink>
+                        </ScrollspyNavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/">Skills</NavLink>
+                        <ScrollspyNavLink name="about">
+                            <NavLink href="#about">About</NavLink>
+                        </ScrollspyNavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/">Work</NavLink>
+                        <ScrollspyNavLink name="work">
+                            <NavLink href="#work">Work</NavLink>
+                        </ScrollspyNavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/">Contact</NavLink>
+                        <ScrollspyNavLink name="contact">
+                            <NavLink href="#contact">Contact</NavLink>
+                        </ScrollspyNavLink>
                     </NavItem>
                 </Nav>
             </Navbar>

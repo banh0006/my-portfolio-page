@@ -18,7 +18,7 @@ export default function ParallaxImage() {
 
     return (
         <>
-            <div className="header-image" style={{ backgroundPositionY: offset/4 }}>
+            <div id="home" className="header-image" style={{ backgroundPositionY: offset/4 }}>
                 {/* <img src={process.env.PUBLIC_URL + '/images/header-img.jpg'} className="header-image" style={{
                     transform: `translateY(${offset * 0.2}px)`
                     // bottom: offset / 2

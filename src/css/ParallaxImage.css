@@ -2,15 +2,16 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url(/images/header-img.jpg);
+    background-image: url(/images/header-img2.jpeg);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .intro-area {
-    width: 20rem;
+    width: 24rem;
     position: absolute;
     top: 50%;
     color: #FFFFFF;
@@ -23,12 +24,12 @@
 .intro-area .intro-text {
     color: #fc7233;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .intro-area .intro-name { 
     color: #fc7233;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 

@@ -1,11 +1,31 @@
 .navbar {
     width: 100vw;
     height: 10vh;
+    background-color: transparent !important;
+}
+
+.navbar > li {
+    font-size: 1.5rem;
+}
+
+.scroll-bar {
+    background-color: #171c20 !important;
+}
+
+.scroll-bar > li, .navbar > ul > li > a{
+    font-size: 1.2rem;
 }
 
 a.nav-link, li.nav-item {
     color: #fc7233;
-    font-size: 1.2rem;
+}
+
+a.nav-link:hover {
+    color: white;
+}
+
+a.active {
+    color: white;  
     font-weight: bold;
 }
 
@@ -15,8 +35,9 @@ a.nav-link, li.nav-item {
 }
 
 .hidden {
-    animation: hideNavBar 0.3s 1;
     visibility: hidden;
+    animation: hideNavBar 0.3s 1;
+    transition: visibility 0s 0.3s;
 }
 
 @keyframes showNavBar {
@@ -26,7 +47,7 @@ a.nav-link, li.nav-item {
 }
 
 @keyframes hideNavBar {
-    0%   {top: 0px;}
-    50%  {top: -25px;}
-    100% {top: -50px;}
+    0%   {top: 0px; }
+    50%  {top: -25px; }
+    100% {top: -50px; }
 }
