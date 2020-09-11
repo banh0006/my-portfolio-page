@@ -1,19 +1,19 @@
-import React, { useState, useEffect } from "react";
-import NavBar from "./components/common/NavBar";
+import React, { useState, useEffect } from "react"
+import NavBar from "./components/common/NavBar"
 import ParallaxImage from './components/ParallaxImage'
 import AboutPage from './components/pages/AboutPage'
 import WorkPage from './components/pages/WorkPage'
 import ContactPage from './components/pages/ContactPage'
 
-import MessengerCustomerChat from "react-messenger-customer-chat";
+import MessengerCustomerChat from "react-messenger-customer-chat"
 import { Scrollspy } from 'reactstrap-scrollspy'
 
 function App() {
   
-  const [showNav, setShowNav] = useState(true);
+  const [showNav, setShowNav] = useState(true)
 
   const handleScroll = () => {
-    const currentPosition = window.pageYOffset;
+    const currentPosition = window.pageYOffset
     const navbar = document.getElementsByClassName("navbar")[0]
     const headerHeight = navbar.clientHeight
 
@@ -24,22 +24,22 @@ function App() {
     }
 
     // show/hide navbar when scroll
-    // const [scrolledPosition, setSrolledPosition] = useState(0);
+    // const [scrolledPosition, setSrolledPosition] = useState(0)
     // if (scrolledPosition > currentPosition) {
-    //   setShowNav(true);
+    //   setShowNav(true)
     // } else {
-    //   setShowNav(false);
+    //   setShowNav(false)
     // }
 
-    // setSrolledPosition(currentPosition);
-  };
+    // setSrolledPosition(currentPosition)
+  }
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  });
+      window.removeEventListener("scroll", handleScroll)
+    }
+  })
 
   return (
     <>
@@ -52,13 +52,10 @@ function App() {
         <AboutPage />
         <WorkPage />
         <ContactPage />
-        <div>
-          
-        </div>
         <MessengerCustomerChat pageId="116543563511206" appId="667569657298462" minimized={false} shouldShowDialog={true}/>
       </Scrollspy>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
