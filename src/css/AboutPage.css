@@ -43,11 +43,37 @@ section .curve img {
     top: 100vh;
     height: 80vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    color: #fff;
 }
 
-.skills-title {
-    color: #fff;
+.skills-text {
     font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.skills-categories, .skill-list {
+    justify-content: space-around;
+}
+
+.skills-categories > div {
+    text-align: center;
+}
+
+.skill-list  div.row {
+    justify-content: center;
+}
+
+.skills-categories > div {
+    border-top: 3px solid #fff;
+    padding: 2rem 0;
+}
+
+.row svg {
+    margin: 1rem;
+}
+
+.skill-name {
+    text-align: center;
 }

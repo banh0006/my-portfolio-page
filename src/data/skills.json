@@ -1,0 +1,90 @@
+{
+    "languages": [
+        {
+            "name": "JavaScript",
+            "icon": "SiJavascript"
+        },
+        {
+            "name": "Java",
+            "icon": "SiJava"
+        },
+        {
+            "name": "C#",
+            "icon": "SiCsharp"
+        },
+        {
+            "name": "Swift",
+            "icon": "SiSwift"
+        },
+        {
+            "name": "Kotlin",
+            "icon": "SiKotlin"
+        },
+        {
+            "name": "HTML",
+            "icon": "SiHtml5"
+        },
+        {
+            "name": "CSS",
+            "icon": "SiCss3"
+        }
+    ],
+    "frameworks": [
+        {
+            "name": "Bootstrap",
+            "icon": "SiBootstrap"
+        },
+        {
+            "name": "Git",
+            "icon": "SiGit"
+        },
+        {
+            "name": "Visual Studio Code",
+            "icon": "SiVisualstudiocode"
+        },
+        {
+            "name": "Intellij",
+            "icon": "SiIntellijidea"
+        },
+        {
+            "name": "Android Studio",
+            "icon": "SiAndroidstudio"
+        },
+        {
+            "name": "Xcode",
+            "icon": "SiXcode"
+        },
+        {
+            "name": "Postman",
+            "icon": "SiPostman"
+        }
+    ], 
+    "libraries": [
+        {
+            "name": "React",
+            "icon": "SiReact"
+        },
+        {
+            "name": "Redux",
+            "icon": "SiRedux"
+        },
+        {
+            "name": "NodeJS",
+            "icon": "FaNode"
+        }
+    ],
+    "databases": [
+        {
+            "name": "My SQL",
+            "icon": "SiMysql"
+        },
+        {
+            "name": "MongoDB",
+            "icon": "SiMongodb"
+        },
+        {
+            "name": "Firebase",
+            "icon": "SiFirebase"
+        }
+    ]
+}

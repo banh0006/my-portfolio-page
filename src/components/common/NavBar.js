@@ -8,7 +8,7 @@ import {
 } from 'reactstrap';
 import { ScrollspyNavLink } from 'reactstrap-scrollspy'
 
-export default function NavBar ( props ) {
+export default function NavBar(props) {
     const [show, setShow] = useState({ ...props.showNav })
     const styles = {
         navBrand: {
