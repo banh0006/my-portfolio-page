@@ -9,10 +9,6 @@ export default function AboutPage() {
 
   useEffect(() => {
     const jsonData = JSON.parse(JSON.stringify(skillsData))
-    console.log(jsonData)
-    jsonData.languages.map(language => {
-      console.log(language.name)
-    })
     setData(jsonData)
   }, [])
 

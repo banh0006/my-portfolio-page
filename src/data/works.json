@@ -1,0 +1,30 @@
+[
+    {
+        "projectName": "Experify Health",
+        "projectDescription": "Experify Health is a mobile web app dedicated to helping improve socialization for residents in long term care, retirement homes, and hospitals. It was developed with React & Redux in front-end, Node.js & MySQL in the back-end."
+    },
+    {
+        "projectName": "Bill Management", 
+        "projectDescription": "This is native android app"
+    },
+    {
+        "projectName": "Movie Search",
+        "projectDescription": "This is web app for searching movie and find movie infomation"
+    },
+    {
+        "projectName": "Movie Search",
+        "projectDescription": "This is web app for searching movie and find movie infomation"
+    },
+    {
+        "projectName": "Movie Search",
+        "projectDescription": "This is web app for searching movie and find movie infomation"
+    },
+    {
+        "projectName": "Movie Search",
+        "projectDescription": "This is web app for searching movie and find movie infomation"
+    },
+    {
+        "projectName": "Movie Search",
+        "projectDescription": "This is web app for searching movie and find movie infomation"
+    }
+]
