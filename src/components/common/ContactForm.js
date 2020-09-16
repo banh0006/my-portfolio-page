@@ -67,7 +67,7 @@ export default function ContactForm() {
                 <FormFeedback>You must enter your email</FormFeedback>
             </FormGroup>
             <FormGroup>
-                <Label for="message">Select</Label>
+                <Label for="message">Message</Label>
                 <Input type="textarea" id="message" onChange={ e => setMessage(e.target.value) } value={message} />
             </FormGroup>
             <Button disabled={sending} color="success" type="submit" className="sendButton">{ sending ? 'Sending' : 'Send' }</Button>
