@@ -2,3 +2,16 @@
     color: #fff;
     background: #111;
 }
+
+form {
+    width: 50vw;
+}
+
+#message {
+    height: 25vh;
+}
+
+.sendButton {
+    width: 10rem;
+    padding: 0.5rem;
+}

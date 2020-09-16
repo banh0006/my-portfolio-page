@@ -4,12 +4,17 @@ import ParallaxImage from './components/ParallaxImage'
 import AboutPage from './components/pages/AboutPage'
 import WorkPage from './components/pages/WorkPage'
 import ContactPage from './components/pages/ContactPage'
+import { positions, Provider } from "react-alert"
+import AlertTemplate from "react-alert-template-mui"
 
 import MessengerCustomerChat from "react-messenger-customer-chat"
 import { Scrollspy } from 'reactstrap-scrollspy'
 
 function App() {
-  
+  const options = {
+    timeout: 4000,
+    position: positions.MIDDLE
+  }
   const [showNav, setShowNav] = useState(true)
 
   const handleScroll = () => {
@@ -42,7 +47,7 @@ function App() {
   })
 
   return (
-    <>
+    <Provider template={AlertTemplate} {...options}>
       <Scrollspy
           names={['navbar', 'home', 'about', 'work', 'contact']}
           homeIndex={1}
@@ -54,7 +59,7 @@ function App() {
         <ContactPage />
         <MessengerCustomerChat pageId="116543563511206" appId="667569657298462" minimized={false} shouldShowDialog={true}/>
       </Scrollspy>
-    </>
+    </Provider>
   )
 }
 
