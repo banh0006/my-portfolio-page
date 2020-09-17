@@ -1,6 +1,11 @@
 #contact {
     color: #fff;
     background: #111;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-size: 3rem;
 }
 
 form {
@@ -14,4 +19,17 @@ form {
 .sendButton {
     width: 10rem;
     padding: 0.5rem;
+}
+
+.follow, .email-text {
+    margin: 1.5rem 0;
+}
+
+.follow a {
+    color: #fff;
+    margin: 1rem 0.5rem;
+}
+
+.follow a:hover {
+    color: #fc7233;
 }

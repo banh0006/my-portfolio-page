@@ -5,13 +5,9 @@ import { SiJavascript, SiJava, SiCsharp, SiSwift, SiKotlin, SiHtml5,
 import { FaNode } from 'react-icons/fa';
 
 export default function ReactIcon( {iconName, iconSize, iconColor} ) {
-    const changeBackGround = () => {
-        console.log("hover")
-    }
-
     return (
         <>
-            {iconName === 'SiJavascript' && <SiJavascript onMouseOver={changeBackGround} size={iconSize} color={iconColor} />}
+            {iconName === 'SiJavascript' && <SiJavascript size={iconSize} color={iconColor} />}
             {iconName === 'SiJava' && <SiJava size={iconSize} color={iconColor} />}
             {iconName === 'SiCsharp' && <SiCsharp size={iconSize} color={iconColor} />}
             {iconName === 'SiSwift' && <SiSwift size={iconSize} color={iconColor} />}
