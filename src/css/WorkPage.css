@@ -17,6 +17,10 @@
     align-items: center;
 } */
 
+.recent-project {
+    margin-bottom: 2rem;
+}
+
 .project-title {
     display: flex;
     justify-content: center;
@@ -36,9 +40,17 @@
     justify-content: flex-end;
 }
 
+.project-image video {
+    margin-right: 2rem;
+}
+
 .project-description {
     justify-content: flex-start;
     padding-left: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 60%;
+    margin-left: 2rem;
 }
 
 .project-info div .row img {
@@ -67,9 +79,6 @@
 .swiper-slide {
     color: #fdfdfd;
 }
-
-
-
 
 .modal-video {
     width: 100%;

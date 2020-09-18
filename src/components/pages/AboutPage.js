@@ -32,7 +32,7 @@ export default function AboutPage() {
       <section>
         <div className="my-intro">
             <p className="intro-title">About me</p>
-            <p className="intro-header">Hello, my name is Thien</p>
+            <p className="intro-header">Hello, my name is Thien.</p>
             <p className="intro-body">I am a Fullstack web developer specialized in React. 
               With 6 years of learning and working experiences in IT, I have a diverse set of skills in both 
               front-end and back-end development, ranging from Java/Node.js, to React + Redux, 

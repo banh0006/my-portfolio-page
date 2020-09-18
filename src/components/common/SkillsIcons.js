@@ -5,7 +5,7 @@ import ReactIcon from './ReactIcon'
 export default function SkillsIcons( {iconName, iconColor, skillName} ) {
     const [color, setColor] = useState({iconColor})
     const changeBackGroundWhenHover = () => {
-        setColor("#fc7233")
+        setColor("#ff8c00")
     }
 
     const revertBackGroundWhenUnhover = () => {

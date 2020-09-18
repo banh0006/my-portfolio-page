@@ -28,7 +28,7 @@ export default function ContactPage() {
                 </div>
                 <div className="contact-form">
                     <div className="email-text">
-                        Send me an email or a facebook message
+                        Send me an email or a facebook message.
                     </div>
                     <ContactForm />
                 </div>

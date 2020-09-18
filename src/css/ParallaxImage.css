@@ -22,14 +22,19 @@
 }
 
 .intro-area .intro-text {
-    color: #fc7233;
+    color: #ff8c00;
     font-style: italic;
     font-size: 3rem;
 }
 
 .intro-area .intro-name { 
-    color: #fc7233;
+    color: #ff8c00;
     font-size: 5rem;
+}
+
+.intro-name {
+    font-weight: bold;
+    font-family: 'Kaushan Script';
 }
 
 

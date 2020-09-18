@@ -23,7 +23,7 @@ export default function NavBar(props) {
     return (
         <React.Fragment>
             <Navbar fixed="top" className={ show === true ? 'active' : 'hidden' }>
-                <NavItem style={styles.navBrand}>Thien Banh</NavItem>
+                <NavItem className="logo-name" style={styles.navBrand}>Thien Banh</NavItem>
                 <Nav className="ml-auto">
                     <NavItem>
                         <ScrollspyNavLink name="home">

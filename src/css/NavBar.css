@@ -1,23 +1,35 @@
 .navbar {
     width: 100vw;
-    height: 10vh;
+    /* height: 10vh; */
+    height: 14vh;
     background-color: transparent !important;
 }
 
+.logo-name {
+    font-family: 'Kaushan Script';
+}
+
+.nav {
+    font-size: 1.2rem;
+}
+
 .navbar > li {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .scroll-bar {
     background-color: #171c20 !important;
+    height: 10vh;
+    transition: height 1s;
 }
 
 .scroll-bar > li, .navbar > ul > li > a{
     font-size: 1.2rem;
+    transition: font-size 1s;
 }
 
 a.nav-link, li.nav-item {
-    color: #fc7233;
+    color: #ff8c00;
 }
 
 a.nav-link:hover {

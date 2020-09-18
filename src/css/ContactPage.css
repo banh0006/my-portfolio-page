@@ -4,8 +4,17 @@
     flex-direction: column;
 }
 
+.contact-info {
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
 .contact-title {
     font-size: 3rem;
+}
+
+.contact-text {
+    margin-bottom: 2rem;
 }
 
 form {
@@ -17,6 +26,7 @@ form {
 }
 
 .sendButton {
+    font-size: 1.2rem;
     width: 10rem;
     padding: 0.5rem;
 }
@@ -31,5 +41,5 @@ form {
 }
 
 .follow a:hover {
-    color: #fc7233;
+    color: #ff8c00;
 }

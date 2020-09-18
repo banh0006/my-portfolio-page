@@ -37,6 +37,19 @@ section .curve img {
     max-width: 60%;
 }
 
+.intro-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.intro-header, .intro-body {
+    font-size: 1.2rem;
+}
+
+.intro-body {
+    line-height: 1.5;
+}
+
 .my-skills {
     position: absolute;
     width: 100%;
@@ -50,7 +63,11 @@ section .curve img {
 .skills-text {
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+
+.skills-categories {
+    font-size: 1.2rem;
 }
 
 .skills-categories, .skill-list {
