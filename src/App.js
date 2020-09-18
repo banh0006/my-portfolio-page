@@ -57,7 +57,7 @@ function App() {
         <AboutPage />
         <WorkPage />
         <ContactPage />
-        <MessengerCustomerChat pageId="116543563511206" appId="667569657298462" minimized={false} shouldShowDialog={true}/>
+        <MessengerCustomerChat pageId="116543563511206" appId="667569657298462" minimized={true} shouldShowDialog={false}/>
       </Scrollspy>
     </Provider>
   )
