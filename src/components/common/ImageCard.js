@@ -4,7 +4,6 @@ import { Button } from 'reactstrap'
 
 export default function ImageCard({ currentProject, toggleDetailsModal, toggleDemoModal, setCurrentProject }) {
     const handleDetailsButtonClick = () => {
-        console.log(currentProject)
         setCurrentProject(currentProject)
         toggleDetailsModal()
     }

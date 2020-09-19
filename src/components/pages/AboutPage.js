@@ -16,7 +16,6 @@ export default function AboutPage() {
     const curve = document.querySelector(".curve")
     const homeDivHeight = document.getElementById("home").clientHeight;
     const windowWidth = window.innerWidth
-    console.log(windowWidth) 
     let currentScroll = 1 + (window.scrollY - homeDivHeight)/-500
 
     curve.style.transform = `scaleY(${currentScroll})`

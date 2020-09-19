@@ -30,15 +30,7 @@ export default function WorkPage() {
         <Container id="work" >
             <Row>
                 <Col xs="12"><p className="work-text">Most Recent Project</p></Col>
-            </Row>
-
-
-
-
-
-
-
-            
+            </Row>  
             <Row>
                 <Col xs="12" className="recent-project">
                     <Row className="project-title">Experify Health</Row>
