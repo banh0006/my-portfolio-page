@@ -36,10 +36,17 @@ form {
 }
 
 .follow a {
+    font-size: 3rem;
     color: #fff;
     margin: 1rem 0.5rem;
 }
 
 .follow a:hover {
     color: #ff8c00;
+}
+
+@media only screen and (max-width: 576px) {
+    form {
+        width: 80vw;
+    }
 }

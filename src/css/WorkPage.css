@@ -6,6 +6,10 @@
     background-color: #F0F0F0;
 }
 
+#work.container {
+    max-width: 100% !important;
+}
+
 .work-text {
     font-size: 3rem;
     text-align: center;
@@ -84,5 +88,27 @@
     width: 100%;
 }
 
+@media only screen and (max-width: 576px) {
+    #work {
+        height: 130vh;
+        justify-content: center;
+    }
 
+    .work-text {
+        margin: 0;
+    }
 
+    video {
+        width: 100%;
+    }
+
+    .project-image > video {
+        margin: 0;
+    }
+
+    .project-description {
+        margin: 3rem 0 0 0;
+        padding: 0;
+        width: 90%;
+    }
+}

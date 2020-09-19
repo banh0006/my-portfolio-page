@@ -1,6 +1,5 @@
 .navbar {
     width: 100vw;
-    /* height: 10vh; */
     height: 14vh;
     background-color: transparent !important;
 }
@@ -63,3 +62,21 @@ a.active {
     50%  {top: -25px; }
     100% {top: -50px; }
 }
+
+/* @media only screen and (max-width: 600px) {
+    .fixed-top {
+        align-items: flex-start !important;
+    }
+
+    .fixed-top .logo-name {
+        margin: 0.5rem 0;
+    }
+
+    .nav {
+        flex-flow: column nowrap;
+        background-color: #378977;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+} */

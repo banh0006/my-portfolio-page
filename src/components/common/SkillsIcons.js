@@ -11,11 +11,10 @@ export default function SkillsIcons( {iconName, iconColor, skillName} ) {
     const revertBackGroundWhenUnhover = () => {
         setColor("#fff")
     }
-
-    const iconSize = 50 //default icon size for all icons
+    
     return (
         <Col className="skill-icon" onMouseOver={changeBackGroundWhenHover} onMouseOut={revertBackGroundWhenUnhover}>
-            <Row><ReactIcon iconName={iconName} iconSize={iconSize} iconColor={color} /></Row>
+            <Row><ReactIcon iconName={iconName} iconColor={color} /></Row>
             <Row className="skill-name">{skillName}</Row>
         </Col>
     )

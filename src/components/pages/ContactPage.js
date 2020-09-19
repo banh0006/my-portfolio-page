@@ -20,10 +20,10 @@ export default function ContactPage() {
                 <div className="follow">
                     Follow me on:
                     <a href="https://www.linkedin.com/in/thien-banh-060339193">
-                        <SiLinkedin size={40} />
+                        <SiLinkedin />
                     </a>
                     <a href="https://github.com/banh0006">
-                        <SiGithub size={40} />
+                        <SiGithub />
                     </a>
                 </div>
                 <div className="contact-form">

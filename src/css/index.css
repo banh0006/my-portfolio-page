@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,4 +12,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  html {
+      font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  html {
+      font-size: 12px;
+  }
 }

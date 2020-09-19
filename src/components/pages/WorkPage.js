@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Modal, ModalBody, ModalHeader } from 'reactstrap';
-import { Row, Col } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import '../../css/WorkPage.css'
 import SwiperImages from '../common/SwiperImages'
 import DetailsModal from '../common/DetailsModal'
@@ -27,15 +27,23 @@ export default function WorkPage() {
     }
 
     return (
-        <div id="work" >
+        <Container id="work" >
             <Row>
                 <Col xs="12"><p className="work-text">Most Recent Project</p></Col>
             </Row>
+
+
+
+
+
+
+
+            
             <Row>
                 <Col xs="12" className="recent-project">
-                    <Row xs="12" className="project-title">Experify Health</Row>
-                    <Row xs="12" className="project-info">
-                        <Col xs="6">
+                    <Row className="project-title">Experify Health</Row>
+                    <Row className="project-info">
+                        <Col md="6" sm="12">
                             <Row className="project-image">
                                 <video onMouseOver={playMovie} onMouseOut={stopMovie} src={process.env.PUBLIC_URL + '/video/Video.mp4'} onClick={toggleVideoModal} />
                                 <Modal isOpen={videoModal} toggle={toggleVideoModal} className="my-modal">
@@ -46,7 +54,7 @@ export default function WorkPage() {
                                 </Modal>
                             </Row>
                         </Col>
-                        <Col xs="6">
+                        <Col md="6" sm="12">
                             <Row>
                                 <div className="project-description">
                                     Experify Health is a mobile web app dedicated to helping improve socialization for 
@@ -77,6 +85,6 @@ export default function WorkPage() {
                 <DetailsModal currentProject={currentProject} toggle={toggleDetailsModal} modal={detailsModal} />
                 <DemoModal currentProject={currentProject} toggle={toggleDemoModal} modal={demoModal} />
             </div> */}
-        </div>
+        </Container>
     )
 }
