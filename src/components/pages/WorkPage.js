@@ -18,13 +18,13 @@ export default function WorkPage() {
     const toggleDetailsModal = () => setDetailsModal(!detailsModal)
     const toggleDemoModal = () => setDemoModal(!demoModal)
     
-    const playMovie = (e) => {
-        e.target.play()
-    }
+    // const playMovie = (e) => {
+    //     e.target.play()
+    // }
 
-    const stopMovie = (e) => {
-        e.target.pause()
-    }
+    // const stopMovie = (e) => {
+    //     e.target.pause()
+    // }
 
     return (
         <Container id="work" >
@@ -37,7 +37,7 @@ export default function WorkPage() {
                     <Row className="project-info">
                         <Col md="6" sm="12">
                             <Row className="project-image">
-                                <video onMouseOver={playMovie} onMouseOut={stopMovie} src={process.env.PUBLIC_URL + '/video/Video.mp4'} onClick={toggleVideoModal} />
+                                <video src={process.env.PUBLIC_URL + '/video/Video.mp4'} onClick={toggleVideoModal} />
                                 <Modal isOpen={videoModal} toggle={toggleVideoModal} className="my-modal">
                                     <ModalHeader toggle={toggleVideoModal}>Experify Health Mobile Web App</ModalHeader>
                                     <ModalBody>
