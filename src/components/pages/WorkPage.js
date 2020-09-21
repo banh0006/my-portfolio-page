@@ -47,7 +47,7 @@ export default function WorkPage() {
                             </Row>
                         </Col>
                         <Col md="6" sm="12">
-                            <Row>
+                            <Row className="description-row">
                                 <div className="project-description">
                                     Experify Health is a mobile web app dedicated to helping improve socialization for 
                                     residents in long term care, retirement homes, and hospitals by providing an easy 
