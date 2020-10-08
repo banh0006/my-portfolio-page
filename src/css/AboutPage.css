@@ -1,5 +1,5 @@
 #about {
-    height: 180vh;
+    height: calc(95vw + 95vh);
     background: #111;
     position: relative;
 }
@@ -11,9 +11,8 @@
 section {
     position: absolute;
     width: 100%;
-    /* height: calc(100% - 200px); */
     /* height: calc(100% - 20vh); */
-    height: 80vh;
+    height: calc(40vw + 40vh);
     background: #fff;
     display: flex !important;
     justify-content: center;
@@ -22,11 +21,11 @@ section {
 
 section .curve {
     position: absolute;
-    /* bottom: -200px;
-    height: 200px; */
     width: 100%;
-    bottom: -20vh;
-    height: 20vh;
+    /* bottom: -20vh; */
+    /* height: 20vh; */
+    bottom: calc(-10vw - 10vh);
+    height: calc(10vw + 10vh);
     transform-origin: top;
 }
 
@@ -57,8 +56,10 @@ section .curve img {
 .my-skills {
     position: absolute;
     width: 100%;
-    top: 100vh;
-    height: 80vh;
+    /* top: 100vh; */
+    /* height: 80vh; */
+    top: calc(50vw + 50vh);
+    height: calc(50vw + 50vh);
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -106,11 +107,12 @@ section .curve img {
 
 @media only screen and (max-width: 576px) {
     #about {
-        height: 200vh;
+        height: calc(120vw + 120vh);
     }
 
-    section {
-        height: 70vh;
+    section .curve {
+        bottom: calc(-5vw - 5vh);
+        height: calc(5vw + 5vh);
     }
 
     .my-intro {
@@ -130,18 +132,20 @@ section .curve img {
 }
 
 @media only screen and (max-width: 992px) and (min-width: 769px) {
-    #about {
-        height: 165vh;
-    }
-
     .icon {
         font-size: 3rem;
     }
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 993px) {
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+    .icon {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
     #about {
-        height: 200vh;
+        height: calc(85vw + 85vh);
     }
 
     .icon {

@@ -4,7 +4,7 @@ import SwiperCore, { EffectCoverflow, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 import 'swiper/components/effect-coverflow/effect-coverflow.scss'
-import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/pagination/pagination.scss'
 import workData from '../../data/works.json'
 
 SwiperCore.use([EffectCoverflow, Pagination])
