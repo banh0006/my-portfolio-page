@@ -1,6 +1,5 @@
 .header-image {
     position: relative;
-    width: 100vw;
     height: 100vh;
     background-image: url(/images/header-img2.jpeg);
     background-size: 100vw 100vh;
